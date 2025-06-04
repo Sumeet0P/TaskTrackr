@@ -89,7 +89,7 @@ export default function Index() {
           Your own task manager
         </Text>
         <Text className="font-bold text-gray-100 mt-2 mb-4">
-          Create Edit Delete
+          Create   Edit   Delete
         </Text>
 
         <View className="flex-row mb-4">

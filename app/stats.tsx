@@ -21,7 +21,7 @@ export default function StatsScreen() {
       source={require("../assets/images/bg_3.jpg")}
       style={{ width: "100%", height: "100%" }}
       className="absolute inset-0"
-      resizeMode="cover"
+      contentFit="cover"
     >
       <View className="flex-1 items-center justify-center">
         <Text className="text-4xl font-bold mb-4 text-black dark:text-white">
