@@ -79,7 +79,7 @@ export default function Index() {
       source={require("../assets/images/bg_3.jpg")}
       style={{ width: "100%", height: "100%" }}
       className="absolute inset-0"
-      resizeMode="cover"
+      contentFit="cover"
     >
       <View className="flex-1 p-4 items-center justify-start mt-[5vh]">
         <Text className="text-3xl font-bold text-gray-100 my-1">
