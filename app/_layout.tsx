@@ -1,10 +1,10 @@
-import { Tabs } from "expo-router";
-import "../global.css";
 import AntDesign from "@expo/vector-icons/AntDesign";
-import { BlurView } from "expo-blur";
-import { StyleSheet } from "react-native";
-import Ionicons from "@expo/vector-icons/Ionicons";
 import FontAwesome5 from "@expo/vector-icons/FontAwesome5";
+import Ionicons from "@expo/vector-icons/Ionicons";
+import { BlurView } from "expo-blur";
+import { Tabs } from "expo-router";
+import { StyleSheet } from "react-native";
+import "../global.css";
 
 export default function RootLayout() {
   return (
