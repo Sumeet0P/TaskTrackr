@@ -21,5 +21,4 @@ npm install
 npx expo start
 # TaskTrackr
 
-The Link to the app is available at:
-🔗 [Live Site](https://tasktrackr-taskmanager.netlify.app)
+# Open the app in your Expo Go app
