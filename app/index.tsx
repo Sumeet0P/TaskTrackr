@@ -1,7 +1,7 @@
 import { ImageBackground } from "expo-image";
 import { useEffect, useState } from "react";
-import { loadTasks, saveTasks } from "../lib/storage";
 import Animated, { FadeIn, FadeOut } from "react-native-reanimated";
+import { loadTasks, saveTasks } from "../lib/storage";
 
 import {
   Alert,

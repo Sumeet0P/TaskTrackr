@@ -2,9 +2,9 @@ import { ImageBackground } from "expo-image";
 import { useFocusEffect } from "expo-router";
 import { useState } from "react";
 import { Text, View } from "react-native";
+import Animated, { FadeIn, FadeOut } from "react-native-reanimated";
 import { loadTasks } from "../lib/storage";
 import { Task } from "../types";
-import Animated, { FadeIn, FadeOut } from "react-native-reanimated";
 
 export default function StatsScreen() {
   const [tasks, setTasks] = useState<Task[]>([]);

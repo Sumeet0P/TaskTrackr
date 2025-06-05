@@ -1,5 +1,5 @@
 import { ImageBackground } from "expo-image";
-import { View, Text, ScrollView } from "react-native";
+import { ScrollView, Text, View } from "react-native";
 import Animated, { FadeIn, FadeOut } from "react-native-reanimated";
 
 export default function SettingsScreen() {
